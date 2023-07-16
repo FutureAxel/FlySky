@@ -10,6 +10,7 @@ import java.time.LocalDateTime;
 @EqualsAndHashCode
 public class VuelosDto {
 
+    private Long vuelosId;
     private String aerolinea;
     private String numeroVuelo;
     private String ciudadOrigen;
